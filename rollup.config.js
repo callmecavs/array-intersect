@@ -4,7 +4,7 @@ import resolve from 'rollup-plugin-node-resolve'
 const info = require('./package.json')
 
 const config = {
-  input: 'src/intersect.js',
+  input: 'src/array-intersect.js',
   plugins: [
     resolve(),
     babel({
@@ -28,7 +28,7 @@ const config = {
     {
       file: info.main,
       format: 'umd',
-      name: 'intersect'
+      name: 'ArrayIntersect'
     }, {
       file: info.module,
       format: 'es'

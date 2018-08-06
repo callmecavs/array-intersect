@@ -1,20 +1,20 @@
 {
-  "name":        "intersect",
+  "name":        "array-intersect",
   "description": "",
 
-  "main":        "dist/intersect.js",
-  "module":      "dist/intersect.module.js",
-  "jsnext:main": "dist/intersect.module.js",
+  "main":        "dist/array-intersect.js",
+  "module":      "dist/array-intersect.module.js",
+  "jsnext:main": "dist/array-intersect.module.js",
 
   "version": "0.0.1",
-  "license": "",
+  "license": "MIT",
 
-  "repository": "",
+  "repository": "callmecavs/array-intersect",
 
   "author": {
-    "name":  "",
-    "email": "",
-    "url":   ""
+    "name":  "Michael Cavalea",
+    "email": "callmecavs@gmail.com",
+    "url":   "http://callmecavs.com/"
   },
 
   "scripts": {
