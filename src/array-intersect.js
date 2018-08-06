@@ -1,7 +1,7 @@
-const intersect = (start, ...rest) => {
+const intersect = (first, ...rest) => {
   return rest.reduce((accum, current) => {
     return accum.filter(x => current.includes(x))
-  }, start)
+  }, first)
 }
 
 export default intersect
