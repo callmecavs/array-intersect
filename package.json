@@ -28,7 +28,8 @@
   },
 
   "keywords": [
-
+    "array",
+    "intersect"
   ],
 
   "devDependencies": {
