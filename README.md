@@ -10,10 +10,17 @@ $ npm i array-intersect --save
 
 ## Use
 
+Pass any number of arrays as arguments.
+
+Expects that:
+
+* Array items are unique (deduped)
+* Array items are [primitive types](https://developer.mozilla.org/en-US/docs/Glossary/Primitive)
+
+
 ```javascript
 import intersect from 'array-intersect'
 
-// pass any number of arrays as arguments
 const simple = intersect(
   [1, 2, 3],
   [2, 3, 4]
@@ -25,8 +32,8 @@ const complex = intersect(
   [2, 3, 4, 5]
 )
 
-console.log(one)            // LOG: [2, 3]
-console.log(many)           // LOG: [2, 3]
+console.log(simple)            // [2, 3]
+console.log(complex)           // [2, 3]
 ```
 
 ## Browser Support
